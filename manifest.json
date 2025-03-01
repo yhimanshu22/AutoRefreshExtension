@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Auto Refresh",
+    "version": "1.0",
+    "description": "Automatically refresh the current tab at a selected interval.",
+    "permissions": [
+        "storage",
+        "tabs",
+        "scripting"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
