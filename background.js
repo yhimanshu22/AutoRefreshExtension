@@ -54,7 +54,7 @@ function updateBadgeText() {
 
 // Function to start countdown timer
 function startCountdown(interval) {
-    if (countdownTimer) clearInterval(countdownTimer); // Clear existing timer
+    if (countdownTimer) clearInterval(countdownTimer);
     timeLeft = interval;
 
     countdownTimer = setInterval(() => {
